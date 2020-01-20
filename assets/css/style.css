@@ -1,0 +1,40 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: white;
+    background: linear-gradient(rgba(255, 255, 255, .5));
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro {
+    padding: 100px 40px 30px 40px;
+}
+
+.active {
+    color: purple;
+}
+
+.menu-btn {
+    border-width: 0px;
+    background-color: white;
+    box-shadow: none !important;
+}
+
+.menu-btn :hover {
+    cursor: pointer;
+}
