@@ -14,6 +14,8 @@ html {
     width: 100%;
     top: 0;
     left: 0;
+    padding:0 65px 0 65px;
+    box-sizing: border-box;
     position: fixed;
     background-color: white;
     background: linear-gradient(rgba(255, 255, 255, .5));
@@ -22,19 +24,26 @@ html {
 }
 
 .intro {
-    padding: 100px 40px 30px 40px;
+    padding: 0 40px 30px 40px;
 }
 
-.active {
-    color: purple;
+.tablinks.active {
+    color: #E10A58;
 }
 
-.menu-btn {
+.tablinks {
+    font-size: 16px;
+    margin: 22px 0 22px 64px;
     border-width: 0px;
     background-color: white;
     box-shadow: none !important;
 }
 
-.menu-btn :hover {
+.tabcontent {
+    padding-top: 100px;
+    display: none;
+}
+
+.tablinks:hover {
     cursor: pointer;
 }
