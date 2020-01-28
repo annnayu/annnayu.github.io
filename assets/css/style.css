@@ -14,17 +14,18 @@ html {
     width: 100%;
     top: 0;
     left: 0;
-    padding:0 65px 0 65px;
+    z-index: 100;
+    padding: 0 65px 0 65px;
     box-sizing: border-box;
     position: fixed;
     background-color: white;
-    background: linear-gradient(rgba(255, 255, 255, .5));
+    /* background: linear-gradient(rgba(255, 255, 255, .5)); */
     display: flex;
     justify-content: space-between;
 }
 
 .intro {
-    padding: 0 40px 30px 40px;
+    padding: 0 40px 30px 160px;
 }
 
 .tablinks.active {
@@ -46,4 +47,51 @@ html {
 
 .tablinks:hover {
     cursor: pointer;
+}
+
+.clickable {
+    width: fit-content;
+    display: flex;
+    color: #E10A58;
+    cursor: pointer;
+}
+
+.arrowed {
+    transform: translate(40px, 20px);
+}
+
+.arrow {
+    height: 8px;
+    width: 8px;
+    border: 1px solid #E10A58;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg);
+}
+
+.arrow:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+    height: 2px;
+    width: 25px;
+    background-color: #E10A58;
+    transform: rotate(-45deg) translate(-3px, 8px);
+}
+
+.work-experience {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 40px 0;
+}
+
+.work-lg-image {
+    width: 738px;
+    /* transform: translate(8px, 0px); */
+    border-radius: 50px 0px 0px 50px;
+}
+
+.work-logo {
+    width: 81px;
 }
