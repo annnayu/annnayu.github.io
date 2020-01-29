@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header" id="myHeader">
+        <h3>Anna Yu - Product Designer</h3>
+        <div id="tabs">
+            <button class="tablinks" onclick="openPage(event, 'Work')" id="defaultOpen">Work</button>
+            <button class="tablinks" onclick="openPage(event, 'About')">About</button>
+            <a target="_blank" href="http://annnayu.github.io/assets/images/AnnaYu_Resume2020.pdf" button class="tablinks">Resume</a>
+        </div>
+    </div>
+    <footer>
+        <h2>Let’s connect</h2>
+        <p>If you’d like to chat, work together, or see more of my work, you can find me on Linkedin, Instagram, or Behance
+        </p>
+        <img src="assets/images/Linkedin-logo.svg">
+        <img src="assets/images/Instagram-logo.svg">
+        <img src="assets/images/Behance-logo.svg">
+    </footer>
+</body>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+
+</html>
+    
