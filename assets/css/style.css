@@ -28,6 +28,15 @@ html {
     padding: 0 40px 30px 160px;
 }
 
+.intro h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.intro p {
+    font-size: 24px;
+}
+
 .tablinks.active {
     color: #E10A58;
 }
@@ -41,15 +50,28 @@ html {
 }
 
 .tabcontent {
-    padding-top: 100px;
+    padding-top: 160px;
     display: none;
+}
+
+.tabcontent p {
+    font-size: 22px;
+}
+
+.tabcontent h1 {
+    font-size: 40px;
 }
 
 .tablinks:hover {
     cursor: pointer;
 }
 
+.short-desc {
+    margin: 0 110px 0 40px;
+}
+
 .clickable {
+    font-weight: bold;
     width: fit-content;
     display: flex;
     color: #E10A58;
@@ -57,7 +79,7 @@ html {
 }
 
 .arrowed {
-    transform: translate(40px, 20px);
+    transform: translate(40px, 7px);
 }
 
 .arrow {
@@ -80,6 +102,12 @@ html {
     transform: rotate(-45deg) translate(-3px, 8px);
 }
 
+.work-header {
+    font-weight: bolder;
+    font-size: 40px;
+    transform: rotate(270deg);
+}
+
 .work-experience {
     display: flex;
     justify-content: space-between;
@@ -87,11 +115,42 @@ html {
 }
 
 .work-lg-image {
-    width: 738px;
-    /* transform: translate(8px, 0px); */
+    width: 40vw;
+    min-width: 450px;
+    transform: translate(14px, 0px);
     border-radius: 50px 0px 0px 50px;
+}
+
+.footer-container {
+    margin: 0 0 80px 160px;
+}
+
+.footer-container h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer-container p {
+    font-size: 28px;
+}
+
+.work-skills {
+    display: flex;
+}
+
+.work-skills h2 {
+    font-weight: bold;
+}
+
+.work-skills-left {
+    margin-right: 60px;
 }
 
 .work-logo {
     width: 81px;
+}
+
+.sm-logo {
+    width: 50px;
+    margin: 40px 20px 0 0;
 }
