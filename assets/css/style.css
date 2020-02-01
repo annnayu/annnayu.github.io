@@ -45,6 +45,7 @@ html {
     font-size: 16px;
     margin: 22px 0 22px 64px;
     border-width: 0px;
+    color: black;
     background-color: white;
     box-shadow: none !important;
 }
@@ -64,6 +65,8 @@ html {
 
 .tablinks:hover {
     cursor: pointer;
+    color: black;
+    text-decoration: none;
 }
 
 .short-desc {
