@@ -95,6 +95,7 @@ html {
 }
 
 .clickable {
+    align-items: center;
     font-weight: bold;
     width: fit-content;
     display: flex;
@@ -102,28 +103,43 @@ html {
     cursor: pointer;
 }
 
-.arrowed {
-    transform: translate(40px, 7px);
-}
-
 .arrow {
-    height: 8px;
-    width: 8px;
-    border: 1px solid #E10A58;
-    border-width: 2px 2px 0 0;
-    transform: rotate(45deg);
+    background: #E10A58;
+    height: 2px;
+    bottom: 3px;
+    left: 20px;
+    width: 30px;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
 }
 
 .arrow:before {
-    content: '';
+    content: "";
+    background: #E10A58;
     position: absolute;
-    top: 0px;
-    right: 0px;
-    display: block;
     height: 2px;
-    width: 25px;
-    background-color: #E10A58;
-    transform: rotate(-45deg) translate(-3px, 8px);
+    width: 10px;
+}
+
+.arrow:after {
+    content: "";
+    background: #E10A58;
+    position: absolute;
+    height: 2px;
+    width: 10px;
+}
+
+.arrow:before {
+    right: 0px;
+    bottom: -4px;
+    transform: rotate(-45deg);
+}
+
+.arrow:after {
+    right: -0px;
+    top: -4px;
+    transform: rotate(45deg);
 }
 
 .work-header {
@@ -247,4 +263,18 @@ html {
 
 .collage .col-md-7 {
     padding: 0;
+}
+
+.interest-desc h1 {
+    margin: 0;
+    padding: 60px 0 0 40px;
+    font-size: 40px;
+}
+
+.interest-desc p {
+    margin: 0 0 0 40px;
+}
+
+.masters-section {
+    margin: 0 0 60px 0;
 }
