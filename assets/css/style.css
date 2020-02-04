@@ -1,4 +1,4 @@
-@font-face{ 
+@font-face {
     src: url("assets/fonts/Poppins-Regular.ttf");
     font-family: 'Poppins';
     font-style: normal;
@@ -8,6 +8,10 @@ body {
     font-family: 'Poppins', sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+}
+
+body a:hover {
+    text-decoration: none;
 }
 
 .sticky {
@@ -30,26 +34,12 @@ body {
     justify-content: space-between;
 }
 
-#About p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
+.header h3 {
+    color: black;
 }
 
-.profile-pic {
-    margin: 0 100px 0 185px;
-}
-
-.profile-pic img {
-    width: 377px;
-}
-
-.profile-desc {
-    margin-right: 170px;
-    word-wrap: break-word;
-}
-
-.profile-container {
-    margin: 0 160px 120px 0;
+.header h3:hover {
+    color: black;
 }
 
 .intro {
@@ -69,6 +59,10 @@ body {
     color: #E10A58;
 }
 
+#tabs {
+    display: flex;
+}
+
 .tablinks {
     font-size: 16px;
     margin: 22px 0 22px 64px;
@@ -80,7 +74,6 @@ body {
 
 .tabcontent {
     padding-top: 160px;
-    display: none;
 }
 
 .tabcontent p {
@@ -93,8 +86,7 @@ body {
 
 .tablinks:hover {
     cursor: pointer;
-    color: black;
-    text-decoration: none;
+    color: #E10A58;
 }
 
 .short-desc {
@@ -105,15 +97,19 @@ body {
     align-items: center;
     font-weight: bold;
     width: fit-content;
-    display: flex;
     color: #E10A58;
+    display: flex;
     cursor: pointer;
+}
+
+.clickable:hover {
+    color: #E10A58;
 }
 
 .arrow {
     background: #E10A58;
     height: 2px;
-    bottom: 3px;
+    bottom: 4px;
     left: 20px;
     width: 30px;
     margin: 0 auto;
@@ -162,7 +158,7 @@ body {
 }
 
 .work-lg-image {
-    width: 40vw;
+    width: 50vw;
     min-width: 450px;
     transform: translate(14px, 0px);
     border-radius: 50px 0px 0px 50px;
@@ -200,6 +196,37 @@ body {
 .sm-logo {
     width: 50px;
     margin: 40px 20px 0 0;
+}
+
+
+/*  */
+
+
+/* ABOUT SECTION CSS */
+
+
+/*  */
+
+#About p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.profile-pic {
+    margin: 0 100px 0 185px;
+}
+
+.profile-pic img {
+    width: 377px;
+}
+
+.profile-desc {
+    margin-right: 170px;
+    word-wrap: break-word;
+}
+
+.profile-container {
+    margin: 0 160px 120px 0;
 }
 
 .travel-desc {
@@ -284,4 +311,30 @@ body {
 
 .masters-section {
     margin: 0 0 60px 0;
+}
+
+
+/*  */
+
+
+/* MEET 4 SUCCESS SECTION */
+
+
+/*  */
+
+.Meet4Success-intro {
+    width: 100%;
+    height: 45vw;
+    margin-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/meet4successLongBackground.png);
+}
+
+.meet-intro-container {
+    margin: 100px;
+}
+
+.skills-section {
+    margin: 60px 0;
 }
