@@ -1,9 +1,4 @@
-@font-face {
-    src: url("assets/fonts/Poppins-Regular.ttf");
-    font-family: 'Poppins';
-    font-style: normal;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 body {
     font-family: 'Poppins', sans-serif;
     -ms-text-size-adjust: 100%;
@@ -337,4 +332,9 @@ body a:hover {
 
 .skills-section {
     margin: 60px 0;
+}
+
+.user-interest-h {
+    font-size: 40px;
+    font-weight: bold;
 }
