@@ -327,7 +327,17 @@ body a:hover {
 }
 
 .meet-intro-container {
-    margin: 100px;
+    padding: 100px 0 100px 100px;
+}
+
+.meet-logo {
+    width: 85px;
+}
+
+.UR-question {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .skills-section {
@@ -337,4 +347,105 @@ body a:hover {
 .user-interest-h {
     font-size: 40px;
     font-weight: bold;
+}
+
+
+/* CSS rules are kept repetitive so that you can get CSS rules for each button easily :) */
+
+.knobs,
+.layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.toggle-button {
+    position: relative;
+    top: 50%;
+    width: 74px;
+    height: 36px;
+    overflow: hidden;
+}
+
+.toggle-button.r,
+.toggle-button.r .layer {
+    border-radius: 100px;
+}
+
+.checkbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.knobs {
+    z-index: 2;
+}
+
+.layer {
+    width: 100%;
+    background-color: #ebf7fc;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+
+
+/* Button 1 */
+
+#button-1 .knobs:before {
+    content: 'Yes';
+    background-color: #03A9F4;
+    left: 42px;
+    color: white;
+    position: absolute;
+    top: 3px;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    padding: 10px 4px;
+    border-radius: 50%;
+}
+
+#button-1 .checkbox:checked+.knobs:before {
+    content: 'No';
+    left: 4px;
+    background-color: white;
+    color: black;
+}
+
+#button-1 .knobs,
+#button-1 .knobs:before,
+#button-1 .layer {
+    transition: 0.3s ease all;
+}
+
+.toggle-container {
+    width: 75px;
+    height: 75px;
+    margin: auto;
+}
+
+.toggle-cover {
+    margin: auto;
+}
+
+.hidden-UR {
+    max-height: 0px !important;
+    transition: max-height 0.5s ease-out !important;
+    overflow: hidden;
+}
+
+#UR-section {
+    max-height: 10000px;
+    transition: max-height 0.5s ease-in;
 }

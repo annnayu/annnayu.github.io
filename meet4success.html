@@ -25,7 +25,7 @@
 
     <div class="Meet4Success-intro">
         <div class="meet-intro-container">
-            <img src="./assets/images/Home - Meet4Success-logo.png">
+            <img class="meet-logo" src="./assets/images/Home - Meet4Success-logo.png">
             <h1>Meet4Success </h1>
             <h2>University of Toronto Mentorship app </h2>
             <p>Check out the </p>
@@ -71,120 +71,129 @@
         <img style="width:1185px;" src="assets/images/Meet4Success - Full Approach.png">
     </div>
 
-    <div>
+    <h1 class="UR-question">
         Are you interested in the User Research?
+    </h1>
+    <div class="toggle-container">
+        <div onclick="toggleUR()" class="toggle-button r" id="button-1">
+            <input type="checkbox" class="checkbox">
+            <div class="knobs"></div>
+            <div class="layer"></div>
+        </div>
     </div>
 
-    <div>
-        <p>1. Empathize </p>
-        <p>User Research</p>
-        <p>In order to understand the current mentorship space and its users, our team conducted preliminary and competitive analysis on mentorship experiences at the University of Toronto (U of T) and elsewhere.
-        </p>
-        <img src="assets/images/Meet4Success - Purple Background.svg">
-        <p>Major Findings</p>
-        <img style="width:41px;" src="assets/images/Meet4Success_number1.png">
-        <p>Existing U of T mentorship programs are siloed within individual faculties or programs.</p>
-        <img style="width:41px;" src="assets/images/Meet4Success_number2.png">
-        <p>Competitors include: Linkedin, Shapr, and Bumble Bizz</p>
-        <img style="width:41px;" src="assets/images/Meet4Success_number3.png">
-        <p>No consistent process for students or alumni to become a mentee, and the requirements and steps vary depending on faculty.</p>
-        <h1>User Interviews & Surveys</h1>
-        <p>To understand the obstacles students and alumni were facing with mentorship, we conducted 16 individual interviews and an online survey with 34 respondents.
-        </p>
-        <img style="width:478px;" src="assets/images/Meet4Success_quote1.png">
-        <img style="width:478px;" src="assets/images/Meet4Success_quote2.png">
-        <img style="width:478px;" src="assets/images/Meet4Success_quote3.png">
-        <img style="width:478px;" src="assets/images/Meet4Success_quote4.png">
+    <div id="UR-section">
 
-        <h1>Key Takeaways from our User Research </h1>
-        <p> Once we collected our data, we created an affinity map and clustered similar responses to identify common themes.
-        </p>
-        <img style="width:64px;" src="assets/images/Meet4Success - TAKEAWAY_awareness.svg">
-        <p>Insufficient mentorship awareness</p>
-        <p>A majority of students and alumni were unaware of mentorship programs offered by the University of Toronto.
-        </p>
-        <p>Many didn’t know where to look if they wanted to get involved and didn’t understand what the matching process and time commitment would consist of.</p>
-        <p>Show less</p>
-        <img style="width:64px;" src="assets/images/Meet4Success - TAKEAWAY_honycomb.svg">
-        <p>Lack of structure and purpose</p>
-        <p>Students and alumni both wanted clear and defined goals in their mentorship experience. </p>
-        <p>Many times, both parties are left unsure about the meeting goal, and unaware of each others expectations.</p>
-        <img style="width:64px;" src="assets/images/Meet4Success - TAKEAWAY_like.svg">
-        <p>Both students and alumni expressed that they see value and can benefit from a mentee-mentor experience. </p>
-        <p>Students specifically wanted advice on career development, while alumni wanted to develop leadership skills while giving back to the community.</p>
-        <img style="width:64px;" src="assets/images/Meet4Success - TAKEAWAY_userpreference.svg">
-        <p>Nearly all respondents mentioned they see more value in 1-on-1 mentorships.</p>
-        <p>Users emphasized the importance of having one point of contact. Group mentorship programs were described negatively and as disorganized.</p>
+        <div>
+            <p>1. Empathize </p>
+            <p>User Research</p>
+            <p>In order to understand the current mentorship space and its users, our team conducted preliminary and competitive analysis on mentorship experiences at the University of Toronto (U of T) and elsewhere.
+            </p>
+            <img src="assets/images/Meet4Success - Purple Background.svg">
+            <p>Major Findings</p>
+            <img style="width:41px;" src="assets/images/Meet4Success_number1.png">
+            <p>Existing U of T mentorship programs are siloed within individual faculties or programs.</p>
+            <img style="width:41px;" src="assets/images/Meet4Success_number2.png">
+            <p>Competitors include: Linkedin, Shapr, and Bumble Bizz</p>
+            <img style="width:41px;" src="assets/images/Meet4Success_number3.png">
+            <p>No consistent process for students or alumni to become a mentee, and the requirements and steps vary depending on faculty.</p>
+            <h1>User Interviews & Surveys</h1>
+            <p>To understand the obstacles students and alumni were facing with mentorship, we conducted 16 individual interviews and an online survey with 34 respondents.
+            </p>
+            <img style="width:478px;" src="assets/images/Meet4Success_quote1.png">
+            <img style="width:478px;" src="assets/images/Meet4Success_quote2.png">
+            <img style="width:478px;" src="assets/images/Meet4Success_quote3.png">
+            <img style="width:478px;" src="assets/images/Meet4Success_quote4.png">
+
+            <h1>Key Takeaways from our User Research </h1>
+            <p> Once we collected our data, we created an affinity map and clustered similar responses to identify common themes.
+            </p>
+            <img style="width:64px;" src="assets/images/Meet4Success - TAKEAWAY_awareness.svg">
+            <p>Insufficient mentorship awareness</p>
+            <p>A majority of students and alumni were unaware of mentorship programs offered by the University of Toronto.
+            </p>
+            <p>Many didn’t know where to look if they wanted to get involved and didn’t understand what the matching process and time commitment would consist of.</p>
+            <p>Show less</p>
+            <img style="width:64px;" src="assets/images/Meet4Success - TAKEAWAY_honycomb.svg">
+            <p>Lack of structure and purpose</p>
+            <p>Students and alumni both wanted clear and defined goals in their mentorship experience. </p>
+            <p>Many times, both parties are left unsure about the meeting goal, and unaware of each others expectations.</p>
+            <img style="width:64px;" src="assets/images/Meet4Success - TAKEAWAY_like.svg">
+            <p>Both students and alumni expressed that they see value and can benefit from a mentee-mentor experience. </p>
+            <p>Students specifically wanted advice on career development, while alumni wanted to develop leadership skills while giving back to the community.</p>
+            <img style="width:64px;" src="assets/images/Meet4Success - TAKEAWAY_userpreference.svg">
+            <p>Nearly all respondents mentioned they see more value in 1-on-1 mentorships.</p>
+            <p>Users emphasized the importance of having one point of contact. Group mentorship programs were described negatively and as disorganized.</p>
+        </div>
+
+        <div>
+            <p>2. Define</p>
+            <h1>Narrowing down the scope</h1>
+            <p>With all the information we’ve gathered through research, we narrowed down our goal and defined the direction we wanted to pursue through empathy mapping, user personas, and as-is scenarios. We began with empathy mapping to help us understand
+                how U of T students and alumni truly think, feel, do, and say. This information was further synthesized into user personas. </p>
+            <img style="width:54px;" src="assets/images/Meet4Success - EMPATHYMAP.svg">
+            <h1>Empathy Map & As-is Scenarios</h1>
+            <p>The building blocks to defining our user’s needs and goals.</p>
+            <a target="_blank" href="./assets/images/Empathy Map_Persona.pdf">View</a>
+
+            <p>Meet the users</p>
+            <p>Considering our design challenge involves two user types: the student and the alumni, we created two separate user personas. I created the visuals of these personas and assisted with the content. </p>
+            <img style="width:963px;" src="assets/images/Meet4Success - PERSONA_SUSAN.png">
+            <img style="width:963px;" src="assets/images/Meet4Success - PERSONA_ANDY.png">
+
+            <p>We looked at their current mentorship experience</p>
+            <p>Now that we’ve identified Susan and Andy, we created an as-is scenario for each user to help us visually see their current journey and identify pain points and areas of opportunities. </p>
+            <img style="width:1440px;" src="assets/images/Meet4Success - TIMELINE_1_SUSAN.png">
+            <img style="width:1440px;" src="assets/images/Meet4Success - TIMELINE_1_ANDY.png">
+
+        </div>
+
+        <div>
+            <p>3.Ideate</p>
+            <h1>Sparking Ideas</h1>
+            <p>Once we refined the goal for the project, we generated 30 ideas to address Susan the student and Andy the alumni’s needs and obstacles. With dot voting, we narrowed it down to 15 ideas. </p>
+            <img style="width:1182px;" src="assets/images/Meet4Success - STICKYS.png">
+            <p>Priorization Grid</p>
+            <p>We organized these 15 ideas into a prioritization grid to determine the most impactful and most feasible ideas to help tackle mentor-mentee mentorship at U of T. I drew the doodles to go along with each idea for better visualization.
+            </p>
+            <img style="width:1169px;" src="assets/images/Meet4Success - PRIORIZATION TABLE.png">
+            <p>With the introduction of Meet4Success, let’s see how Susan and Andy’s mentorship experience will differ.</p>
+            <p>Below I visualized the to-be scenario to identify whether the introduction of the Meet4Success app will leave a positive impact on Susan and Andy’s existing mentorship experience.</p>
+            <img style="width:1166px;" src="assets/images/Meet4Success - TIMELINE_2_SUSAN.png">
+            <img style="width:1166px;" src="assets/images/Meet4Success - TIMELINE_2_ANDY.png">
+        </div>
+
+        <div>
+            <p>4. Prototyping</p>
+            <p>Sketching the Interface</p>
+            <img style="height:671px;" src="assets/images/Meet4Success - SKETCHING_PHOTO1.png">
+            <img style="height:671px;" src="assets/images/Meet4Success - SKETCHING_PHOTO2.png">
+            <img style="height:671px;" src="assets/images/Meet4Success - SKETCHING_PHOTO3.png">
+        </div>
+
+        <div style="background-color: rgb(38, 38, 38);color: rgb(233, 233, 233);padding:100px;">
+            <p>5. Evaluate & Test</p>
+            <p>Insights & Improvements </p>
+            <p>The next goal was to identify any gaps in our knowledge, overlooked issues, and friction points with the decisions made so far. Guerrilla testing with 3 representative users helped us prepare for the next round of iterations.
+            </p>
+            <img style="height:47px;" src="assets/images/Meet4Success_Hierarhcy.png">
+            <p>Hierarchy</p>
+            <p>Adjust information architecture to highlight the most important information.</p>
+            <p>Aa</p>>
+            <p>Labeling</p>
+            <p>Ensure call to action button labels are descriptive yet simple and direct. </p>
+            <img style="height:47px;" src="assets/images/Meet4Success_Barriers.png">
+            <p>Onboarding Barriers </p>
+            <p>Intergrate existing accounts. Ex. UTORid. Auto-fill information to reduce steps in the setup process.</p>
+            <img style="height:47px;" src="assets/images/Meet4Success_Support.png">
+            <p>Support options </p>
+            <p>Provide users the option to save and continue profile setup for later. </p>
+            <img style="height:47px;" src="assets/images/Meet4Success_Feedback.png">
+            <p>Optional Feedback</p>
+            <p>Feedback should never be forced. There should also be an incentive to complete survey.</p>
+
+        </div>
     </div>
-
-    <div>
-        <p>2. Define</p>
-        <h1>Narrowing down the scope</h1>
-        <p>With all the information we’ve gathered through research, we narrowed down our goal and defined the direction we wanted to pursue through empathy mapping, user personas, and as-is scenarios. We began with empathy mapping to help us understand
-            how U of T students and alumni truly think, feel, do, and say. This information was further synthesized into user personas. </p>
-        <img style="width:54px;" src="assets/images/Meet4Success - EMPATHYMAP.svg">
-        <h1>Empathy Map & As-is Scenarios</h1>
-        <p>The building blocks to defining our user’s needs and goals.</p>
-        <a target="_blank" href="./assets/images/Empathy Map_Persona.pdf">View</a>
-
-        <p>Meet the users</p>
-        <p>Considering our design challenge involves two user types: the student and the alumni, we created two separate user personas. I created the visuals of these personas and assisted with the content. </p>
-        <img style="width:963px;" src="assets/images/Meet4Success - PERSONA_SUSAN.png">
-        <img style="width:963px;" src="assets/images/Meet4Success - PERSONA_ANDY.png">
-
-        <p>We looked at their current mentorship experience</p>
-        <p>Now that we’ve identified Susan and Andy, we created an as-is scenario for each user to help us visually see their current journey and identify pain points and areas of opportunities. </p>
-        <img style="width:1440px;" src="assets/images/Meet4Success - TIMELINE_1_SUSAN.png">
-        <img style="width:1440px;" src="assets/images/Meet4Success - TIMELINE_1_ANDY.png">
-
-    </div>
-
-    <div>
-        <p>3.Ideate</p>
-        <h1>Sparking Ideas</h1>
-        <p>Once we refined the goal for the project, we generated 30 ideas to address Susan the student and Andy the alumni’s needs and obstacles. With dot voting, we narrowed it down to 15 ideas. </p>
-        <img style="width:1182px;" src="assets/images/Meet4Success - STICKYS.png">
-        <p>Priorization Grid</p>
-        <p>We organized these 15 ideas into a prioritization grid to determine the most impactful and most feasible ideas to help tackle mentor-mentee mentorship at U of T. I drew the doodles to go along with each idea for better visualization.
-        </p>
-        <img style="width:1169px;" src="assets/images/Meet4Success - PRIORIZATION TABLE.png">
-        <p>With the introduction of Meet4Success, let’s see how Susan and Andy’s mentorship experience will differ.</p>
-        <p>Below I visualized the to-be scenario to identify whether the introduction of the Meet4Success app will leave a positive impact on Susan and Andy’s existing mentorship experience.</p>
-        <img style="width:1166px;" src="assets/images/Meet4Success - TIMELINE_2_SUSAN.png">
-        <img style="width:1166px;" src="assets/images/Meet4Success - TIMELINE_2_ANDY.png">
-    </div>
-
-    <div>
-        <p>4. Prototyping</p>
-        <p>Sketching the Interface</p>
-        <img style="height:671px;" src="assets/images/Meet4Success - SKETCHING_PHOTO1.png">
-        <img style="height:671px;" src="assets/images/Meet4Success - SKETCHING_PHOTO2.png">
-        <img style="height:671px;" src="assets/images/Meet4Success - SKETCHING_PHOTO3.png">
-    </div>
-
-    <div style="background-color: rgb(38, 38, 38);color: rgb(233, 233, 233);padding:100px;">
-        <p>5. Evaluate & Test</p>
-        <p>Insights & Improvements </p>
-        <p>The next goal was to identify any gaps in our knowledge, overlooked issues, and friction points with the decisions made so far. Guerrilla testing with 3 representative users helped us prepare for the next round of iterations.
-        </p>
-        <img style="height:47px;" src="assets/images/Meet4Success_Hierarhcy.png">
-        <p>Hierarchy</p>
-        <p>Adjust information architecture to highlight the most important information.</p>
-        <p>Aa</p>>
-        <p>Labeling</p>
-        <p>Ensure call to action button labels are descriptive yet simple and direct. </p>
-        <img style="height:47px;" src="assets/images/Meet4Success_Barriers.png">
-        <p>Onboarding Barriers </p>
-        <p>Intergrate existing accounts. Ex. UTORid. Auto-fill information to reduce steps in the setup process.</p>
-        <img style="height:47px;" src="assets/images/Meet4Success_Support.png">
-        <p>Support options </p>
-        <p>Provide users the option to save and continue profile setup for later. </p>
-        <img style="height:47px;" src="assets/images/Meet4Success_Feedback.png">
-        <p>Optional Feedback</p>
-        <p>Feedback should never be forced. There should also be an incentive to complete survey.</p>
-
-    </div>
-
     <div>
         <p>Meet4Success App</p>
         <h1>Information Architecture</h1>

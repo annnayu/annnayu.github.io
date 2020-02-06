@@ -20,3 +20,8 @@ function openPage(evt, pageName) {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+function toggleUR() {
+    var element = document.getElementById("UR-section");
+    element.classList.toggle("hidden-UR");
+}
