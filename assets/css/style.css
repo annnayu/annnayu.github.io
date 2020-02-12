@@ -349,9 +349,6 @@ body a:hover {
     font-weight: bold;
 }
 
-
-/* CSS rules are kept repetitive so that you can get CSS rules for each button easily :) */
-
 .knobs,
 .layer {
     position: absolute;
@@ -448,4 +445,34 @@ body a:hover {
 #UR-section {
     max-height: 10000px;
     transition: max-height 0.5s ease-in;
+}
+
+.emphasize {
+    color: white;
+    background-color: #21252D;
+    border-radius: 0 100px 100px 0;
+    word-wrap: break-word;
+    padding: 30px 80px 30px 100px;
+}
+
+.major-findings {
+    background-image: url(../images/Meet4Success\ -\ Purple\ Background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vw;
+    padding: 100px 0 0 100px;
+    word-wrap: break-word;
+}
+
+.define {
+    color: white;
+    background-color: #21252D;
+    border-radius: 0 100px 100px 0;
+    word-wrap: break-word;
+    padding: 30px 80px 30px 100px;
+}
+
+.empathy-card {
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
 }
