@@ -231,7 +231,7 @@ body a:hover {
 }
 
 #About h1 {
-    font-weight: bold;
+    font-weight: 600;
     line-height: 51px;
 }
 
@@ -256,6 +256,7 @@ body a:hover {
     display: table-cell;
     vertical-align: middle;
     padding-left: 50px;
+    line-height: 30px;
 }
 
 .travel-shadow {
