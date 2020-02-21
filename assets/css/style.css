@@ -51,6 +51,7 @@ body a:hover {
     font-size: 24px;
 }
 
+
 .tablinks.active {
     color: #E10A58;
 }
@@ -87,6 +88,8 @@ body a:hover {
 
 .short-desc {
     margin: 0 110px 0 40px;
+    position: relative;
+    top: -23px;
 }
 
 .short-desc h1 {
@@ -187,16 +190,16 @@ body a:hover {
 
 .work-skills h2 {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .work-skills p {
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .work-skills-left {
     margin-right: 30px;
-    width: 187px;
+    width: 250px;
 }
 
 .work-skills-right {
@@ -224,6 +227,12 @@ body a:hover {
 #About p {
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
+    line-height: 38px;
+}
+
+#About h1 {
+    font-weight: bold;
+    line-height: 51px;
 }
 
 .profile-pic {
