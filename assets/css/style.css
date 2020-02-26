@@ -437,9 +437,40 @@ body a:hover {
     margin: 60px 0;
 }
 
-.user-interest-h {
+.process-title {
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 600;
+    color: white;
+}
+
+.number-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+.title-descript {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.title-descript-black {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ACACAC;
+}
+
+.subtitle-black {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
 }
 
 .knobs,
@@ -570,16 +601,6 @@ body a:hover {
     border-radius: 20px;
 }
 
-.emphasize h3{
-    font-size: 22px;
-    font-weight: 600;
-}
-
-.emphasize h1{
-    font-size: 40px;
-    font-weight: 700;
-}
-
 .emphasize p {
     font-size: 20px;
     font-weight: 400;
@@ -599,25 +620,8 @@ body a:hover {
     margin: 60px 186px 60px 129px;
 }
 
-.user-interviews h1{
-    font-size: 30px;
-    font-weight: 700;
-    color: #ACACAC;
-}
-
-.user-interviews p{
-    font-size: 18px;
-    font-weight: 400;
-}
-
 .key-takeaways {
     margin: 60px 186px 60px 129px;
-}
-
-.key-takeaways h1 {
-    font-size: 30px;
-    font-weight: 700;
-    color: #ACACAC;
 }
 
 .key-takeaways h2 {
@@ -628,4 +632,20 @@ body a:hover {
 .key-takeaways p{
     font-size: 18px;
     font-weight: 400;
+}
+
+.ideate {
+    color: white;
+    background-color: #21252D;
+    border-radius: 0 80px 80px 0;
+    word-wrap: break-word;
+    padding: 30px 250px 30px 100px;
+}
+
+.prototype {
+    color: white;
+    background-color: #21252D;
+    border-radius: 0 80px 80px 0;
+    word-wrap: break-word;
+    padding: 30px 0px 30px 100px;
 }
