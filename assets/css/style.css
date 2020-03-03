@@ -575,7 +575,6 @@ body a:hover {
 }
 
 #UR-section {
-    max-height: 10000px;
     transition: max-height 0.5s ease-in;
 }
 
