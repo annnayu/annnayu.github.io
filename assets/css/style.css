@@ -423,26 +423,78 @@ body a:hover {
     font-size: 20px;
     font-weight: 600;
     color: #494949;
+    text-align: center;
 }
 
 .skills-section p {
     font-size: 20px;
     font-weight: 500;
     color: black;
+    text-align: center;
+}
+
+.Meet4Success_Problem div{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%
 }
 
 .Meet4Success_Problem h1 {
     font-size: 40px;
     font-weight: 600;
+    width: 284px;
+    height: 118px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
 }
 
 .Meet4Success_Problem p {
     font-size: 20px;
     font-weight: 500;
+    width: 567px;
+    height: 118px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 25px;
+    margin-bottom: 150px;
+    margin-left: 81px;
+    text-align: left; 
+ 
 }
 
+hr {
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.Meet4Success_Approach div{
+    text-align: center;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.Meet4Success_Approach h1 {
+    font-size: 40px;
+    font-weight: 600;
+    width: 932px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.Meet4Success_Approach p {
+    font-size: 20px;
+    font-weight: 500;
+    vertical-align: top;
+    margin-left: 100px;
+    padding-top: 20px;
+    width: 932px;
+    text-align: center;
+ 
+}
 .design-process {
-    margin: 60px 0;
+    margin-top: 80px;
+    text-align: center;
 }
 
 .process-title {
