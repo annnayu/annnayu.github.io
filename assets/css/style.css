@@ -435,16 +435,14 @@ body a:hover {
 
 .Meet4Success_Problem div{
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%
 }
 
 .Meet4Success_Problem h1 {
     font-size: 40px;
     font-weight: 600;
-    width: 284px;
     height: 118px;
-    display: inline-block;
+    display: inline-block; 
+    float: none;
     text-align: left;
     vertical-align: top;
 }
@@ -452,15 +450,14 @@ body a:hover {
 .Meet4Success_Problem p {
     font-size: 20px;
     font-weight: 500;
-    width: 567px;
     height: 118px;
-    display: inline-block;
+    display: inline-block; 
+    float: none;
     vertical-align: top;
     padding-top: 25px;
-    margin-bottom: 150px;
-    margin-left: 81px;
+    margin-bottom: 100px;
+    margin-left: 70px;
     text-align: left; 
- 
 }
 
 hr {
@@ -470,26 +467,24 @@ hr {
 
 .Meet4Success_Approach div{
     text-align: center;
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Meet4Success_Approach h1 {
     font-size: 40px;
     font-weight: 600;
-    width: 932px;
-    text-align: center;
-    margin-left: 100px;
+    text-align: center; 
 }
 
 .Meet4Success_Approach p {
     font-size: 20px;
     font-weight: 500;
     vertical-align: top;
-    margin-left: 100px;
+    width: 70vw;
     padding-top: 20px;
-    width: 932px;
     text-align: center;
+    margin: auto;
  
 }
 .design-process {
