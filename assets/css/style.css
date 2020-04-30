@@ -655,9 +655,8 @@ hr {
 }
 
 .define {
-    color: white;
-    background-color: #21252D;
-    border-radius: 0 100px 100px 0;
+    color: black;
+    background-color: #f8f8f8;
     word-wrap: break-word;
     padding: 30px 80px 30px 100px;
 }
