@@ -498,7 +498,7 @@ hr {
     color: black;
     text-align: center;
     margin: auto;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .section_header h3 {
@@ -515,7 +515,7 @@ hr {
     font-weight: 500;
     color: black;
     text-align: center;
-    width: 70vw;
+    width: 49vw;
     margin: auto;
 }
 
@@ -643,15 +643,6 @@ hr {
     padding: 30px 80px 30px 100px;
 }
 
-.major-findings {
-    background-image: url(../images/Meet4Success\ -\ Purple\ Background.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vw;
-    padding: 100px 0 0 100px;
-    word-wrap: break-word;
-}
-
 .define {
     color: white;
     background-color: #21252D;
@@ -673,18 +664,50 @@ hr {
     font-weight: 400;
 }
 
-.major-findings h3 {
-    font-size: 22px;
+.major-findings-icons {
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+}
+
+.major-findings h1 {
+    font-size: 30px;
     font-weight: 600;
+    text-align: center;
+    margin: auto;
+    padding: 50px 0px 50px 0px;
 }
 
 .major-findings p {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
 }
 
-.user-interviews {
-    margin: 60px 186px 60px 129px;
+.user-interviews h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    padding: 50px 0px 50px 0px;
+}
+
+.user-interviews p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+    width: 59vw;
+}
+
+.interview-center {
+    display: block;
+    margin: auto;
+    padding-bottom: 50px;
+    width: 70%;
 }
 
 .key-takeaways {
