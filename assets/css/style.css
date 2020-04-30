@@ -492,28 +492,38 @@ hr {
     text-align: center;
 }
 
-.process-title {
+.section_header h1{
     font-size: 40px;
     font-weight: 600;
-    color: white;
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
 }
 
-.number-title {
+.section_header h3 {
     font-size: 22px;
     font-weight: 600;
-    color: white;
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
 }
 
-.title-descript {
+.section_header p{
     font-size: 20px;
     font-weight: 500;
-    color: white;
+    color: black;
+    text-align: center;
+    width: 70vw;
+    margin: auto;
 }
 
 .title-descript-black {
     font-size: 20px;
     font-weight: 500;
     color: black;
+    text-align: center;
 }
 
 .section-title {
