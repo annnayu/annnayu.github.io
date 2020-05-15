@@ -661,6 +661,32 @@ hr {
     padding: 30px 80px 30px 100px;
 }
 
+.define h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+
+.define h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+
+.define h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin: auto;
+
+}
+
 .empathy-card {
     margin: auto;
     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
@@ -723,6 +749,10 @@ hr {
 .key-takeaways p {
     font-size: 20px;
     font-weight: 400;
+}
+
+.key-takeaway-main {
+    display: inline-block;
 }
 
 .ideate {
