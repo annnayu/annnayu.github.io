@@ -700,11 +700,34 @@ hr {
     font-weight: 400;
 }
 
+.meet-the-users {
+    padding: 50px;
+}
+
+.meet-the-users p { 
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin: auto;
+    text-align: center;
+    width: 70vw;
+}
+
+.current-experience {
+    padding: 40px;
+}
+
+.current-experience p {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin: auto;
+    text-align: center;
+    width: 70vw;
+}
+
 .major-findings-icons {
     text-align: center;
-    margin: auto;
-    display: inline-block;
-    width: 100%;
 }
 
 .major-findings p {
