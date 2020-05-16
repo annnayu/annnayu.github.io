@@ -528,6 +528,56 @@ hr {
     margin: auto;
 }
 
+.number-title {
+    font-size: 22px;
+    font-weight: 600px;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.process-title {
+    font-size: 40px;
+    font-weight: 600px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title-descript {
+    font-size: 20px;
+    font-weight: 400px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.subtitle_section {
+    padding: 50px;
+    text-align: center;
+}
+
+.subtitle_section h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    padding-bottom: 10px;
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+}
+
+.subtitle_section p {
+    font-size: 20px;
+    font-weight: 500px;
+    color: black;
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+
+}
+
 .title-descript-black {
     font-size: 20px;
     font-weight: 500;
@@ -778,12 +828,10 @@ hr {
     display: inline-block;
 }
 
-.ideate {
-    color: white;
-    background-color: #21252D;
-    border-radius: 0 80px 80px 0;
-    word-wrap: break-word;
-    padding: 30px 250px 30px 100px;
+.idea-photo {
+    padding: 20px;
+    display: block;
+    margin: auto;;
 }
 
 .prototype {
@@ -797,4 +845,14 @@ hr {
 .persona-container {
     overflow: auto;
     white-space: nowrap;
+}
+
+.improvement {
+    text-align: center;
+
+}
+
+.icon {
+padding-bottom: 10px;
+
 }
