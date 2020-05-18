@@ -892,14 +892,31 @@ hr {
     padding: 0px 70px 70px 70px;
 }
 
+.skewedbox {
+    background-color: rgb(38, 38, 38);
+    padding: 40px 0;
+    transform: skew(0deg, -5deg); 
+}
+
+.container {
+    transform: skew(0deg, 5deg); 
+    margin-left: 350px;
+}
+
 .meet4success_app {
     padding: 70px 130px 70px 130px;
+    text-align: center;
 }
 
 .meet4success_app h1 {
     font-size: 40px;
     font-weight: 600;
+}
 
+.meet4success_app h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .meet4success_app h3 {
@@ -911,7 +928,38 @@ hr {
 .meet4success_app p {
     font-size: 20px;
     font-weight: 400;
+    text-align: left;
+}
 
+
+.meet4success_app_left {
+    padding: 150px 130px 70px 130px;
+    text-align: left;
+}
+
+.meet4success_app_left h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.meet4success_app_left h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.meet4success_app_left h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+
+}
+
+.meet4success_app_left p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
 }
 
 .reflection h1 {
