@@ -938,8 +938,8 @@ hr {
 }
 
 .meet4success_app_left h1 {
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 36px;
+    font-weight: 700;
     text-align: left;
 }
 
@@ -961,6 +961,26 @@ hr {
     font-weight: 400;
     text-align: left;
 }
+
+.conversation h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.conversation h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.conversation p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+
 
 .reflection h1 {
     font-size: 30px;
