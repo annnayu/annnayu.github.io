@@ -489,9 +489,9 @@ body a:hover {
     display: inline-block; 
     float: none;
     vertical-align: top;
-    padding-top: 25px;
-    margin-bottom: 100px;
-    margin-left: 70px;
+    padding-top: 10px;
+    margin-bottom: 70px;
+    margin-left: 50px;
     text-align: left; 
 }
 
@@ -501,6 +501,7 @@ hr {
 }
 
 .Meet4Success_Approach div{
+    padding-top: 50px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -523,7 +524,7 @@ hr {
  
 }
 .design-process {
-    margin-top: 80px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -839,7 +840,7 @@ hr {
 }
 
 .key-takeaways {
-    margin: 60px 186px 60px 129px;
+    padding: 50px 150px 50px 150px;
 }
 
 .key-takeaways h1 {
@@ -860,7 +861,7 @@ hr {
 }
 
 .key-takeaway-main {
-    display: inline-block;
+    padding: 0 50px 50px 50px;
 }
 
 .idea-photo {
