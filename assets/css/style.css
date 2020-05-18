@@ -262,6 +262,19 @@ body a:hover {
     word-wrap: break-word;
 }
 
+.profile-desc h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+}
+
+.profile-desc p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #646464;
+
+}
+
 .profile-container {
     margin: 0 160px 120px 0;
 }
@@ -297,6 +310,24 @@ body a:hover {
     padding-left: 180px;
 }
 
+.ud-desc h1 {
+   font-size: 34px;
+   font-weight: 600;
+   color: black;
+}
+
+.ud-desc h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+ }
+
+ .ud-desc p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #646464;
+ }
+
 .ud-img {
     width: 100%;
 }
@@ -322,7 +353,11 @@ body a:hover {
 
 .interest-header {
     margin: 0 0 15px 40px;
-    padding: 20px 0 0 0;
+    padding: 80px 0 0 20px;
+}
+
+.interest-text {
+    padding: 0 0 0 20px;
 }
 
 .interest-desc {
