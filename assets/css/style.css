@@ -852,7 +852,28 @@ hr {
 
 }
 
-.icon {
-padding-bottom: 10px;
+.insights {
+    padding: 0px 70px 70px 70px;
+}
+
+.meet4success_app {
+    padding: 70px 130px 70px 130px;
+}
+
+.meet4success_app h1 {
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.meet4success_app h3 {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.meet4success_app p {
+    font-size: 20px;
+    font-weight: 400;
 
 }
