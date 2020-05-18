@@ -528,6 +528,10 @@ hr {
     text-align: center;
 }
 
+.section_header {
+    margin: 20px 0;
+}
+
 .section_header h1{
     font-size: 40px;
     font-weight: 600;
@@ -738,6 +742,27 @@ hr {
     border-radius: 0 100px 100px 0;
     word-wrap: break-word;
     padding: 30px 80px 30px 100px;
+}
+
+#more { 
+    display: none;
+
+}
+
+#more_2 { 
+    display: none;
+
+}
+
+button {
+    background-color: white;
+    border: none;
+    outline: none;
+    color: #225EF7; 
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0; 
+
 }
 
 .define {
