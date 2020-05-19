@@ -30,6 +30,7 @@ body a:hover {
 }
 
 .header h3 {
+    padding-top: 22px;
     color: black;
     font-size: 16px;
 }
@@ -115,7 +116,7 @@ body a:hover {
 .arrow {
     background: #E10A58;
     height: 2px;
-    bottom: 4px;
+    bottom: 7px;
     left: 20px;
     width: 30px;
     margin: 0 auto;
@@ -272,7 +273,6 @@ body a:hover {
     font-size: 25px;
     font-weight: 500;
     color: #646464;
-
 }
 
 .profile-container {
@@ -311,22 +311,22 @@ body a:hover {
 }
 
 .ud-desc h1 {
-   font-size: 34px;
-   font-weight: 600;
-   color: black;
+    font-size: 34px;
+    font-weight: 600;
+    color: black;
 }
 
 .ud-desc h2 {
     font-size: 20px;
     font-weight: 400;
     color: black;
- }
+}
 
- .ud-desc p {
+.ud-desc p {
     font-size: 25px;
     font-weight: 500;
     color: #646464;
- }
+}
 
 .ud-img {
     width: 100%;
@@ -468,7 +468,7 @@ body a:hover {
     text-align: center;
 }
 
-.Meet4Success_Problem div{
+.Meet4Success_Problem div {
     text-align: center;
 }
 
@@ -476,7 +476,7 @@ body a:hover {
     font-size: 40px;
     font-weight: 600;
     height: 118px;
-    display: inline-block; 
+    display: inline-block;
     float: none;
     text-align: left;
     vertical-align: top;
@@ -486,13 +486,13 @@ body a:hover {
     font-size: 20px;
     font-weight: 500;
     height: 118px;
-    display: inline-block; 
+    display: inline-block;
     float: none;
     vertical-align: top;
     padding-top: 10px;
     margin-bottom: 70px;
     margin-left: 50px;
-    text-align: left; 
+    text-align: left;
 }
 
 hr {
@@ -500,7 +500,7 @@ hr {
     margin-right: 10%
 }
 
-.Meet4Success_Approach div{
+.Meet4Success_Approach div {
     padding-top: 50px;
     text-align: center;
     margin-left: auto;
@@ -510,7 +510,7 @@ hr {
 .Meet4Success_Approach h1 {
     font-size: 40px;
     font-weight: 600;
-    text-align: center; 
+    text-align: center;
 }
 
 .Meet4Success_Approach p {
@@ -521,8 +521,8 @@ hr {
     padding-top: 20px;
     text-align: center;
     margin: auto;
- 
 }
+
 .design-process {
     margin-top: 50px;
     text-align: center;
@@ -532,7 +532,7 @@ hr {
     margin-top: 20px;
 }
 
-.section_header h1{
+.section_header h1 {
     font-size: 40px;
     font-weight: 600;
     color: black;
@@ -541,7 +541,7 @@ hr {
     padding-bottom: 20px;
 }
 
-.section_header h2{
+.section_header h2 {
     font-size: 30px;
     font-weight: 600;
     color: black;
@@ -559,7 +559,7 @@ hr {
     padding-bottom: 10px;
 }
 
-.section_header p{
+.section_header p {
     font-size: 20px;
     font-weight: 500;
     color: black;
@@ -574,7 +574,6 @@ hr {
     color: white;
     text-align: center;
     padding-bottom: 10px;
-
 }
 
 .process-title {
@@ -615,7 +614,6 @@ hr {
     width: 60vw;
     margin: auto;
     text-align: center;
-
 }
 
 .title-descript-black {
@@ -744,25 +742,22 @@ hr {
     padding: 30px 80px 30px 100px;
 }
 
-#more { 
+#more {
     display: none;
-
 }
 
-#more_2 { 
+#more_2 {
     display: none;
-
 }
 
 button {
     background-color: white;
     border: none;
     outline: none;
-    color: #225EF7; 
+    color: #225EF7;
     font-size: 20px;
     font-weight: 500;
-    padding: 0; 
-
+    padding: 0;
 }
 
 .define {
@@ -772,13 +767,12 @@ button {
     padding: 30px 80px 30px 100px;
 }
 
-.define h1{
+.define h1 {
     font-size: 40px;
     font-weight: 600;
     color: black;
     margin: auto;
     padding-bottom: 20px;
-
 }
 
 .define h2 {
@@ -787,7 +781,6 @@ button {
     color: black;
     margin: auto;
     padding-bottom: 20px;
-
 }
 
 .define h3 {
@@ -795,7 +788,6 @@ button {
     font-weight: 400;
     color: black;
     margin: auto;
-
 }
 
 .empathy-card {
@@ -815,7 +807,7 @@ button {
     padding: 50px;
 }
 
-.meet-the-users p { 
+.meet-the-users p {
     font-size: 20px;
     font-weight: 400;
     color: black;
@@ -892,7 +884,8 @@ button {
 .idea-photo {
     padding: 20px;
     display: block;
-    margin: auto;;
+    margin: auto;
+    ;
 }
 
 .prototype {
@@ -910,7 +903,6 @@ button {
 
 .improvement {
     text-align: center;
-
 }
 
 .insights {
@@ -920,11 +912,11 @@ button {
 .skewedbox {
     background-color: rgb(38, 38, 38);
     padding: 40px 0;
-    transform: skew(0deg, -5deg); 
+    transform: skew(0deg, -5deg);
 }
 
 .container {
-    transform: skew(0deg, 5deg); 
+    transform: skew(0deg, 5deg);
     margin-left: 350px;
 }
 
@@ -947,7 +939,6 @@ button {
 .meet4success_app h3 {
     font-size: 20px;
     font-weight: 600;
-
 }
 
 .meet4success_app p {
@@ -955,7 +946,6 @@ button {
     font-weight: 400;
     text-align: left;
 }
-
 
 .meet4success_app_left {
     padding: 150px 130px 70px 130px;
@@ -978,7 +968,6 @@ button {
     font-size: 20px;
     font-weight: 600;
     text-align: left;
-
 }
 
 .meet4success_app_left p {
@@ -1004,8 +993,6 @@ button {
     font-weight: 400;
     text-align: left;
 }
-
-
 
 .reflection h1 {
     font-size: 30px;
