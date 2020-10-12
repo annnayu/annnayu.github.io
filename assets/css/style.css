@@ -30,6 +30,7 @@ body a:hover {
 }
 
 .header h3 {
+    padding-top: 22px;
     color: black;
     font-size: 16px;
 }
@@ -115,7 +116,7 @@ body a:hover {
 .arrow {
     background: #E10A58;
     height: 2px;
-    bottom: 4px;
+    bottom: 7px;
     left: 20px;
     width: 30px;
     margin: 0 auto;
@@ -262,6 +263,18 @@ body a:hover {
     word-wrap: break-word;
 }
 
+.profile-desc h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+}
+
+.profile-desc p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #646464;
+}
+
 .profile-container {
     margin: 0 160px 120px 0;
 }
@@ -297,6 +310,24 @@ body a:hover {
     padding-left: 180px;
 }
 
+.ud-desc h1 {
+    font-size: 34px;
+    font-weight: 600;
+    color: black;
+}
+
+.ud-desc h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.ud-desc p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #646464;
+}
+
 .ud-img {
     width: 100%;
 }
@@ -322,7 +353,11 @@ body a:hover {
 
 .interest-header {
     margin: 0 0 15px 40px;
-    padding: 20px 0 0 0;
+    padding: 80px 0 0 20px;
+}
+
+.interest-text {
+    padding: 0 0 0 20px;
 }
 
 .interest-desc {
@@ -433,7 +468,7 @@ body a:hover {
     text-align: center;
 }
 
-.Meet4Success_Problem div{
+.Meet4Success_Problem div {
     text-align: center;
 }
 
@@ -441,7 +476,7 @@ body a:hover {
     font-size: 40px;
     font-weight: 600;
     height: 118px;
-    display: inline-block; 
+    display: inline-block;
     float: none;
     text-align: left;
     vertical-align: top;
@@ -451,13 +486,13 @@ body a:hover {
     font-size: 20px;
     font-weight: 500;
     height: 118px;
-    display: inline-block; 
+    display: inline-block;
     float: none;
     vertical-align: top;
-    padding-top: 25px;
-    margin-bottom: 100px;
-    margin-left: 70px;
-    text-align: left; 
+    padding-top: 10px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    text-align: left;
 }
 
 hr {
@@ -465,7 +500,8 @@ hr {
     margin-right: 10%
 }
 
-.Meet4Success_Approach div{
+.Meet4Success_Approach div {
+    padding-top: 50px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -474,7 +510,7 @@ hr {
 .Meet4Success_Approach h1 {
     font-size: 40px;
     font-weight: 600;
-    text-align: center; 
+    text-align: center;
 }
 
 .Meet4Success_Approach p {
@@ -485,14 +521,18 @@ hr {
     padding-top: 20px;
     text-align: center;
     margin: auto;
- 
 }
+
 .design-process {
-    margin-top: 80px;
+    margin-top: 50px;
     text-align: center;
 }
 
-.section_header h1{
+.section_header {
+    margin-top: 20px;
+}
+
+.section_header h1 {
     font-size: 40px;
     font-weight: 600;
     color: black;
@@ -501,7 +541,7 @@ hr {
     padding-bottom: 20px;
 }
 
-.section_header h2{
+.section_header h2 {
     font-size: 30px;
     font-weight: 600;
     color: black;
@@ -519,13 +559,61 @@ hr {
     padding-bottom: 10px;
 }
 
-.section_header p{
+.section_header p {
     font-size: 20px;
     font-weight: 500;
     color: black;
     text-align: center;
     width: 49vw;
     margin: auto;
+}
+
+.number-title {
+    font-size: 22px;
+    font-weight: 600px;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.process-title {
+    font-size: 40px;
+    font-weight: 600px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title-descript {
+    font-size: 20px;
+    font-weight: 400px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.subtitle_section {
+    padding: 50px;
+    text-align: center;
+}
+
+.subtitle_section h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    padding-bottom: 10px;
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+}
+
+.subtitle_section p {
+    font-size: 20px;
+    font-weight: 500px;
+    color: black;
+    width: 60vw;
+    margin: auto;
+    text-align: center;
 }
 
 .title-descript-black {
@@ -654,11 +742,52 @@ hr {
     padding: 30px 80px 30px 100px;
 }
 
+#more {
+    display: none;
+}
+
+#more_2 {
+    display: none;
+}
+
+button {
+    background-color: white;
+    border: none;
+    outline: none;
+    color: #225EF7;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0;
+}
+
 .define {
     color: black;
     background-color: #f8f8f8;
     word-wrap: break-word;
     padding: 30px 80px 30px 100px;
+}
+
+.define h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.define h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.define h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin: auto;
 }
 
 .empathy-card {
@@ -674,11 +803,34 @@ hr {
     font-weight: 400;
 }
 
+.meet-the-users {
+    padding: 50px;
+}
+
+.meet-the-users p {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin: auto;
+    text-align: center;
+    width: 70vw;
+}
+
+.current-experience {
+    padding: 40px;
+}
+
+.current-experience p {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin: auto;
+    text-align: center;
+    width: 70vw;
+}
+
 .major-findings-icons {
     text-align: center;
-    margin: auto;
-    display: inline-block;
-    width: 100%;
 }
 
 .major-findings p {
@@ -705,7 +857,7 @@ hr {
 }
 
 .key-takeaways {
-    margin: 60px 186px 60px 129px;
+    padding: 50px 150px 50px 150px;
 }
 
 .key-takeaways h1 {
@@ -725,12 +877,15 @@ hr {
     font-weight: 400;
 }
 
-.ideate {
-    color: white;
-    background-color: #21252D;
-    border-radius: 0 80px 80px 0;
-    word-wrap: break-word;
-    padding: 30px 250px 30px 100px;
+.key-takeaway-main {
+    padding: 0 50px 50px 50px;
+}
+
+.idea-photo {
+    padding: 20px;
+    display: block;
+    margin: auto;
+    ;
 }
 
 .prototype {
@@ -744,4 +899,116 @@ hr {
 .persona-container {
     overflow: auto;
     white-space: nowrap;
+}
+
+.improvement {
+    text-align: center;
+}
+
+.insights {
+    padding: 0px 70px 70px 70px;
+}
+
+.skewedbox {
+    background-color: rgb(38, 38, 38);
+    padding: 40px 0;
+    transform: skew(0deg, -5deg);
+}
+
+.container {
+    transform: skew(0deg, 5deg);
+    margin-left: 350px;
+}
+
+.meet4success_app {
+    padding: 70px 130px 70px 130px;
+    text-align: center;
+}
+
+.meet4success_app h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.meet4success_app h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.meet4success_app h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.meet4success_app p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.meet4success_app_left {
+    padding: 150px 130px 70px 130px;
+    text-align: left;
+}
+
+.meet4success_app_left h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.meet4success_app_left h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.meet4success_app_left h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.meet4success_app_left p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.conversation h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.conversation h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.conversation p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.reflection h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #646464;
+}
+
+.reflection h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #DFDFDF;
+    padding-bottom: 50px;
+}
+
+.reflection p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #DFDFDF;
 }
