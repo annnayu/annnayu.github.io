@@ -89,7 +89,7 @@ body a:hover {
 .short-desc {
     margin: 0 110px 0 40px;
     position: relative;
-    top: -23px;
+    top: 0px;
 }
 
 .short-desc h1 {
@@ -195,6 +195,7 @@ body a:hover {
 
 .work-skills p {
     font-size: 22px;
+    margin-bottom: 0rem;
 }
 
 .work-skills-left {
