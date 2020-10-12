@@ -89,7 +89,7 @@ body a:hover {
 .short-desc {
     margin: 0 110px 0 40px;
     position: relative;
-    top: 0px;
+    top: 0px; 
 }
 
 .short-desc h1 {
