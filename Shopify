@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header" id="myHeader">
+        <a href="index.html">
+            <h3>Anna Yu - Product Designer</h3>
+        </a>
+        <div id="tabs">
+            <a class="tablinks active" href="index.html">Work</a>
+            <a class="tablinks" href="about.html">About</a>
+            <a class="tablinks" target="_blank" href="./assets/images/AnnaYu_Resume 2020.pdf">Resume</a>
+        </div>
+    </div>
+</body> 
